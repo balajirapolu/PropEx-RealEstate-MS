@@ -3,47 +3,56 @@
 # 🏢 PropEx — Real Estate Management System (REMS)
 ### *Enterprise-Grade Property Marketplace, Tenancy Management & Financial Automation Platform*
 
-[![Node.js Version](https://img.shields.io/badge/Node.js-18.x%20%7C%2020.x-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)](https://nodejs.org/)
-[![Express.js](https://img.shields.io/badge/Express-v5.1-000000?style=for-the-badge&logo=express&logoColor=white)](https://expressjs.com/)
-[![React](https://img.shields.io/badge/React-v19.1-61DAFB?style=for-the-badge&logo=react&logoColor=black)](https://react.dev/)
-[![Vite](https://img.shields.io/badge/Vite-v5%2Fv7-646CFF?style=for-the-badge&logo=vite&logoColor=white)](https://vitejs.dev/)
-[![MongoDB](https://img.shields.io/badge/MongoDB-Mongoose%20v8-47A248?style=for-the-badge&logo=mongodb&logoColor=white)](https://www.mongodb.com/)
-[![TailwindCSS](https://img.shields.io/badge/TailwindCSS-v3.4-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)](https://tailwindcss.com/)
-[![Stripe](https://img.shields.io/badge/Payments-Stripe%20Integrated-635BFF?style=for-the-badge&logo=stripe&logoColor=white)](https://stripe.com/)
-[![License: ISC](https://img.shields.io/badge/License-ISC-blue.svg?style=for-the-badge)](LICENSE)
+<p align="center">
+  <a href="https://nodejs.org/"><img src="https://img.shields.io/badge/Node.js-18.x%20%7C%2020.x-339933.svg?style=for-the-badge&logo=nodedotjs&logoColor=white" alt="Node.js" /></a>
+  <a href="https://expressjs.com/"><img src="https://img.shields.io/badge/Express.js-5.1-000000.svg?style=for-the-badge&logo=express&logoColor=white" alt="Express.js" /></a>
+  <a href="https://react.dev/"><img src="https://img.shields.io/badge/React-19.1-20232A.svg?style=for-the-badge&logo=react&logoColor=61DAFB" alt="React" /></a>
+  <a href="https://vitejs.dev/"><img src="https://img.shields.io/badge/Vite-5.0-646CFF.svg?style=for-the-badge&logo=vite&logoColor=white" alt="Vite" /></a>
+  <a href="https://www.mongodb.com/"><img src="https://img.shields.io/badge/MongoDB-8.0-47A248.svg?style=for-the-badge&logo=mongodb&logoColor=white" alt="MongoDB" /></a>
+  <a href="https://tailwindcss.com/"><img src="https://img.shields.io/badge/TailwindCSS-3.4-38B2AC.svg?style=for-the-badge&logo=tailwindcss&logoColor=white" alt="TailwindCSS" /></a>
+  <a href="https://stripe.com/"><img src="https://img.shields.io/badge/Stripe-Payments-635BFF.svg?style=for-the-badge&logo=stripe&logoColor=white" alt="Stripe" /></a>
+  <a href="#license"><img src="https://img.shields.io/badge/License-ISC-blue.svg?style=for-the-badge" alt="License" /></a>
+</p>
 
 <br/>
 
 **PropEx** is a production-ready, full-stack Real Estate Management Platform designed to streamline interactions between **Property Buyers**, **Tenants**, **Property Managers/Agents**, **Landlords/Owners**, and **Platform Administrators**. It bridges high-converting property discovery with automated tenancy lifecycles, automated rent collection, interactive geospatial mapping, and role-segregated executive dashboards.
 
-[Explore Features](#-key-features) • [System Architecture](#-system-architecture) • [Role Matrix](#-role-based-access-control-rbac) • [Quick Start](#-getting-started) • [API Specification](#-api-reference) • [Documentation](#-documentation)
+<p align="center">
+  <a href="#key-features">Explore Features</a> •
+  <a href="#system-architecture">System Architecture</a> •
+  <a href="#role-based-access-control-rbac">Role Matrix</a> •
+  <a href="#getting-started">Quick Start</a> •
+  <a href="#api-reference">API Specification</a> •
+  <a href="#documentation--workflows">Documentation</a>
+</p>
 
 ---
 </div>
 
 ## 📑 Table of Contents
-- [Executive Overview](#-executive-overview)
-- [Key Features](#-key-features)
-- [System Architecture](#-system-architecture)
-- [Role-Based Access Control (RBAC)](#-role-based-access-control-rbac)
-- [Tech Stack](#-tech-stack)
-- [Directory Structure](#-directory-structure)
-- [Getting Started](#-getting-started)
+- [Executive Overview](#executive-overview)
+- [Key Features](#key-features)
+- [System Architecture](#system-architecture)
+- [Role-Based Access Control (RBAC)](#role-based-access-control-rbac)
+- [Tech Stack](#tech-stack)
+- [Directory Structure](#directory-structure)
+- [Getting Started](#getting-started)
   - [Prerequisites](#prerequisites)
   - [Installation](#installation)
   - [Environment Variables](#environment-variables)
   - [Running the Application](#running-the-application)
-- [API Reference](#-api-reference)
-- [Automated Background Workers](#-automated-background-workers)
-- [Testing & Quality Assurance](#-testing--quality-assurance)
-- [Documentation & Workflows](#-documentation--workflows)
-- [Security & Compliance](#-security--compliance)
-- [Contributing](#-contributing)
-- [License](#-license)
+- [API Reference](#api-reference)
+- [Automated Background Workers](#automated-background-workers)
+- [Testing & Quality Assurance](#testing--quality-assurance)
+- [Documentation & Workflows](#documentation--workflows)
+- [Security & Compliance](#security--compliance)
+- [Contributing](#contributing)
+- [License](#license)
 
 ---
 
-## 🌟 Executive Overview
+## <a id="executive-overview"></a>🌟 Executive Overview
 
 Modern real estate workflows often suffer from fragmented communication, manual lease management, and delayed payment reconciliations. **PropEx** consolidates the entire real estate lifecycle into a single unified platform:
 
@@ -55,7 +64,7 @@ Modern real estate workflows often suffer from fragmented communication, manual 
 
 ---
 
-## 🚀 Key Features
+## <a id="key-features"></a>🚀 Key Features
 
 ### 🔍 1. Interactive Property Discovery & Geospatial Search
 - **Geospatial Mapping:** Interactive map browsing powered by **Leaflet** & **React-Leaflet** with customized map markers and bounds search.
@@ -94,7 +103,7 @@ Modern real estate workflows often suffer from fragmented communication, manual 
 
 ---
 
-## 🏛️ System Architecture
+## <a id="system-architecture"></a>🏛️ System Architecture
 
 ```mermaid
 flowchart TB
@@ -144,7 +153,7 @@ flowchart TB
 
 ---
 
-## 🛡️ Role-Based Access Control (RBAC)
+## <a id="role-based-access-control-rbac"></a>🛡️ Role-Based Access Control (RBAC)
 
 PropEx enforces strict role separation across the application:
 
@@ -172,7 +181,7 @@ PropEx enforces strict role separation across the application:
 
 ---
 
-## 💻 Tech Stack
+## <a id="tech-stack"></a>💻 Tech Stack
 
 ### Frontend Application
 - **Runtime & Framework:** [React 19](https://react.dev/) with [Vite](https://vitejs.dev/)
@@ -197,7 +206,7 @@ PropEx enforces strict role separation across the application:
 
 ---
 
-## 📂 Directory Structure
+## <a id="directory-structure"></a>📂 Directory Structure
 
 ```text
 PropEx/
@@ -255,7 +264,7 @@ PropEx/
 
 ---
 
-## ⚡ Getting Started
+## <a id="getting-started"></a>⚡ Getting Started
 
 ### Prerequisites
 Make sure the following tools and services are installed/configured:
@@ -350,7 +359,7 @@ npm run dev
 
 ---
 
-## 📡 API Reference
+## <a id="api-reference"></a>📡 API Reference
 
 All backend routes are prefixed with `/api`. Protected routes require a Bearer token in the `Authorization` header (`Bearer <token>`).
 
@@ -401,7 +410,7 @@ All backend routes are prefixed with `/api`. Protected routes require a Bearer t
 
 ---
 
-## ⏰ Automated Background Workers
+## <a id="automated-background-workers"></a>⏰ Automated Background Workers
 
 The backend utilizes `node-cron` to execute automated scheduled maintenance routines daily at midnight (`0 0 * * *`):
 
@@ -416,7 +425,7 @@ cron.schedule('0 0 * * *', async () => {
 
 ---
 
-## 🧪 Testing & Quality Assurance
+## <a id="testing--quality-assurance"></a>🧪 Testing & Quality Assurance
 
 PropEx includes automated testing with Jest and Supertest to validate endpoints and data consistency:
 
@@ -441,7 +450,7 @@ npm run lint
 
 ---
 
-## 📚 Documentation & Workflows
+## <a id="documentation--workflows"></a>📚 Documentation & Workflows
 
 Comprehensive documentation for all five platform roles is maintained inside the [`/docs/roles`](docs/roles/) directory:
 
@@ -453,7 +462,7 @@ Comprehensive documentation for all five platform roles is maintained inside the
 
 ---
 
-## 🔒 Security & Compliance
+## <a id="security--compliance"></a>🔒 Security & Compliance
 
 - **Cryptographic Hashing:** Passwords securely hashed with `bcryptjs` using dynamic salts before persistence.
 - **Stateless Tokens:** Signed JWT tokens with strict expiration thresholds.
@@ -463,7 +472,7 @@ Comprehensive documentation for all five platform roles is maintained inside the
 
 ---
 
-## 🤝 Contributing
+## <a id="contributing"></a>🤝 Contributing
 
 Contributions are welcomed! Follow these standard practices:
 
@@ -484,7 +493,7 @@ Contributions are welcomed! Follow these standard practices:
 
 ---
 
-## 📄 License
+## <a id="license"></a>📄 License
 
 This project is licensed under the **ISC License**. Feel free to use, modify, and distribute according to the terms of the license.
 
